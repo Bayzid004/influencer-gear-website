@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+header {
+    margin: 90px 120px 0 120px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.header-items {
+    display: flex;
+}
+
+.header-content li {
+    list-style: none;
+    margin-right: 35px;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.header-content li a {
+    text-decoration: none;
+}
+
+.header-content img {
+    max-width: 36px;
+    width: 100%;
+}
+
+/* main camera */
+.main-camera-content {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.main-camera-about {
+    padding-top: 120px;
+}
+
+.main-camera-about h1 {
+    width: 582px;
+    height: 135px;
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.main-camera-about p {
+    width: 505px;
+    height: 60.9px;
+    flex-shrink: 0;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-camera-about button {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    border-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 0;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    transition-delay:.5s;
+}
+
+
+/* main style */
+
+
+@media screen and (max-width: 576px) {
+    header{
+        align-items: center;
+    }
+    .header-content,
+    .header-items,
+    .main-camera-content
+    {
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .main-camera-about{
+        padding-top: 10px;
+    }
+    .main-camera-about h1{
+        line-height: 20px;
+        font-size: 20px;
+        align-items: center;
+        height: 50px;
+    }
+    .main-camera-about p{
+        width: auto;
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    .main-camera-content img{
+        width: 250px;
+    }
+}
