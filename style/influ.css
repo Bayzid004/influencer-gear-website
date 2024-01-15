@@ -161,10 +161,12 @@ button:hover {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.gear-image{
+
+.gear-image {
     position: relative;
     left: 50px;
 }
+
 .gear-content {
     position: relative;
     right: 250px;
@@ -203,6 +205,35 @@ button:hover {
 .gear-content button:hover {
     background-color: aqua;
     color: black;
+}
+
+/* footer style */
+
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+footer h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+footer p {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+.footer-icons image{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* mobile devices */
