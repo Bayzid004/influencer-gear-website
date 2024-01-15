@@ -110,24 +110,31 @@ button:hover{
     }
     .header-content,
     .header-items,
-    .main-camera-content
+    .main-camera-content,
+    .icon
     {
         flex-direction: column;
         padding-top: 0;
+        padding-bottom: 20px;
+        align-items: center;
+        max-width: 450px;
     }
     .main-camera-about{
         padding-top: 10px;
     }
     .main-camera-about h1{
-        line-height: 20px;
-        font-size: 20px;
-        align-items: center;
-        height: 50px;
+        width: auto;
+        height: auto;
+        font-size: larger;
+        line-height: 25px;
     }
     .main-camera-about p{
         width: auto;
-        font-size: 10px;
-        padding-bottom: 10px;
+        height: auto;
+
+    }
+    .icon{
+        margin-top: 20px;
     }
     .main-camera-content img{
         width: 250px;
